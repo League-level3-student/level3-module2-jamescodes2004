@@ -11,18 +11,35 @@ class _04_SearchTest {
 	@Test
 	public void testLinearSearch() {
 		//1. use the assertEquals method to test your linear search method.
+		String[] words = {"a", "b", "c"};
+		
+		assertEquals(1, _00_LinearSearch.linearSearch(words, "b"));
+		assertEquals(-1, _00_LinearSearch.linearSearch(words, "d"));
+		assertEquals(0, _00_LinearSearch.linearSearch(words, "a"));
 	}
 
 	@Test
 	public void testBinarySearch() {
 		//2. use the assertEquals method to test your binary search method.
 		//   remember that the array must be sorted
+String[] words = {"a", "b", "c"};
+		
+		assertEquals(1, _00_LinearSearch.linearSearch(words, "b"));
+		assertEquals(-1, _00_LinearSearch.linearSearch(words, "d"));
+		assertEquals(0, _00_LinearSearch.linearSearch(words, "a"));
 	}
+	
 	
 	@Test
 	public void testInterpolationSearch() {
 		//3. use the assertEquals method to test your interpolation search method.
 		//   remember that the array must be sorted and evenly distributed
+String[] words = {"a", "b", "c"};
+		
+		assertEquals(1, _00_LinearSearch.linearSearch(words, "b"));
+		assertEquals(-1, _00_LinearSearch.linearSearch(words, "d"));
+		assertEquals(0, _00_LinearSearch.linearSearch(words, "a"));
+	
 	}
 	
 	@Test
